@@ -1,0 +1,20 @@
+# Rust
+rust/target/
+
+# Ruby
+ruby/.bundle/
+ruby/vendor/
+
+# Python
+python/.venv/
+python/__pycache__/
+python/src/**/__pycache__/
+python/dist/
+python/*.egg-info/
+
+# TypeScript
+typescript/node_modules/
+typescript/dist/
+
+# OS
+.DS_Store
