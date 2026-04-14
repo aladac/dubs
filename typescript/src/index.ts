@@ -71,7 +71,16 @@ const patternData: PatternData = loadJSON("patterns.json");
 const themeRegistry = new Map<string, ThemeData>();
 
 // Load built-in themes
-for (const file of ["gundam.json", "star-trek.json"]) {
+for (const file of [
+  "gundam.json",
+  "star-trek.json",
+  "star-wars.json",
+  "transformers.json",
+  "warhammer-40k.json",
+  "nato.json",
+  "pokemon.json",
+  "leet.json",
+]) {
   const theme: ThemeData = loadJSON(join("themes", file));
   themeRegistry.set(theme.name, theme);
 }
