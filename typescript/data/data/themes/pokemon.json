@@ -1,0 +1,32 @@
+{
+  "name": "pokemon",
+  "display_name": "Pokémon",
+  "categories": {
+    "gen1": [
+      "bulbasaur", "charmander", "squirtle", "pikachu", "eevee",
+      "snorlax", "gengar", "alakazam", "machamp", "gyarados",
+      "dragonite", "mewtwo", "mew", "arcanine", "lapras",
+      "vaporeon", "jolteon", "flareon", "ditto", "magikarp",
+      "charizard", "blastoise", "venusaur", "jigglypuff", "onix",
+      "geodude", "abra", "gastly", "cubone", "hitmonlee",
+      "hitmonchan", "scyther", "electabuzz", "magmar", "pinsir",
+      "tauros", "aerodactyl", "articuno", "zapdos", "moltres"
+    ],
+    "legendaries": [
+      "mewtwo", "mew", "articuno", "zapdos", "moltres",
+      "lugia", "ho-oh", "celebi", "groudon", "kyogre",
+      "rayquaza", "deoxys", "dialga", "palkia", "giratina",
+      "arceus", "reshiram", "zekrom", "kyurem", "xerneas",
+      "yveltal", "zygarde", "solgaleo", "lunala", "necrozma",
+      "zacian", "zamazenta", "eternatus", "calyrex", "koraidon",
+      "miraidon"
+    ],
+    "types": [
+      "normal", "fire", "water", "electric", "grass",
+      "ice", "fighting", "poison", "ground", "flying",
+      "psychic", "bug", "rock", "ghost", "dragon",
+      "dark", "steel", "fairy"
+    ]
+  },
+  "default_category": "gen1"
+}

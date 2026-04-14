@@ -1,0 +1,35 @@
+{
+  "name": "star-wars",
+  "display_name": "Star Wars",
+  "categories": {
+    "vehicles": [
+      "a-wing", "at-at", "at-st", "b-wing", "corvette",
+      "death-star", "executor", "falcon", "ghost", "interceptor",
+      "jedi-starfighter", "lambda", "naboo-fighter", "outrider",
+      "phantom", "razor-crest", "republic-cruiser", "sandcrawler",
+      "slave-one", "snowspeeder", "speeder-bike", "star-destroyer",
+      "super-star-destroyer", "tantive", "tie-bomber", "tie-fighter",
+      "twilight", "u-wing", "venator", "x-wing", "y-wing"
+    ],
+    "planets": [
+      "alderaan", "bespin", "coruscant", "dagobah", "dantooine",
+      "endor", "geonosis", "hoth", "jakku", "kamino",
+      "kashyyyk", "kessel", "lothal", "mandalore", "mustafar",
+      "naboo", "scarif", "tatooine", "yavin"
+    ],
+    "characters": [
+      "ahsoka", "anakin", "boba-fett", "c3po", "chewbacca",
+      "dooku", "grievous", "han-solo", "jabba", "jango",
+      "kylo-ren", "lando", "leia", "luke", "mace-windu",
+      "maul", "obi-wan", "padme", "palpatine", "poe",
+      "r2d2", "rey", "tarkin", "vader", "yoda"
+    ],
+    "weapons": [
+      "blaster", "bowcaster", "darksaber", "dc-15", "detonator",
+      "disruptor", "e-11", "electrostaff", "flamethrower",
+      "ion-cannon", "lightsaber", "proton-torpedo", "thermaldet",
+      "turbolaser", "vibroblade"
+    ]
+  },
+  "default_category": "vehicles"
+}
