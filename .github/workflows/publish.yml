@@ -7,7 +7,7 @@ on:
 jobs:
   rust:
     name: Publish Rust crate
-    runs-on: [self-hosted, Linux, X64]
+    runs-on: ubuntu-latest
     environment: crates-io
     steps:
       - uses: actions/checkout@v4
@@ -20,7 +20,7 @@ jobs:
 
   ruby:
     name: Publish Ruby gem
-    runs-on: [self-hosted, Linux, X64]
+    runs-on: ubuntu-latest
     environment: rubygems
     permissions:
       contents: read
@@ -41,7 +41,7 @@ jobs:
 
   python:
     name: Publish Python package
-    runs-on: [self-hosted, Linux, X64]
+    runs-on: ubuntu-latest
     environment: pypi
     permissions:
       contents: read
@@ -63,7 +63,7 @@ jobs:
 
   npm:
     name: Publish npm package
-    runs-on: [self-hosted, Linux, X64]
+    runs-on: ubuntu-latest
     environment: npm
     steps:
       - uses: actions/checkout@v4
