@@ -1,0 +1,31 @@
+{
+  "name": "star-trek",
+  "display_name": "Star Trek",
+  "categories": {
+    "ship_classes": [
+      "akira", "ambassador", "centaur", "cheyenne", "constellation",
+      "constitution", "danube", "defiant", "dreadnought", "excelsior",
+      "galaxy", "hermes", "intrepid", "miranda", "nebula",
+      "new-orleans", "niagara", "norway", "nova", "oberth",
+      "olympic", "prometheus", "saber", "sovereign", "springfield",
+      "steamrunner", "sydney", "walker", "crossfield", "inquiry"
+    ],
+    "species": [
+      "andorian", "bajoran", "betazoid", "bolian", "borg",
+      "breen", "cardassian", "changeling", "denobulan", "ferengi",
+      "gorn", "hirogen", "jem-hadar", "kazon", "klingon",
+      "orion", "pakled", "reman", "romulan", "species-8472",
+      "suliban", "tellarite", "tholian", "trill", "vidiian",
+      "vorta", "vulcan", "xindi"
+    ],
+    "characters": [
+      "archer", "bashir", "chakotay", "crusher", "dax",
+      "data", "dukat", "geordi", "guinan", "janeway",
+      "kira", "kirk", "laforge", "mccoy", "obrien",
+      "odo", "picard", "pike", "quark", "riker",
+      "scotty", "seven", "sisko", "spock", "sulu",
+      "tpol", "troi", "tuvok", "uhura", "worf"
+    ]
+  },
+  "default_category": "ship_classes"
+}
