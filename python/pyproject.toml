@@ -1,6 +1,6 @@
 [project]
 name = "dubs"
-version = "0.1.4"
+version = "0.1.5"
 description = "Themed name generator — like haikunator, but with categories"
 requires-python = ">=3.10"
 license = "MIT"
@@ -18,8 +18,8 @@ classifiers = [
 dependencies = []
 
 [project.urls]
-Homepage = "https://github.com/aladac/dubs"
-Repository = "https://github.com/aladac/dubs"
+Homepage = "https://github.com/saiden-dev/dubs"
+Repository = "https://github.com/saiden-dev/dubs"
 
 [build-system]
 requires = ["hatchling"]

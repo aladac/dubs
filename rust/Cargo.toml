@@ -1,11 +1,11 @@
 [package]
 name = "dubs"
-version = "0.1.4"
+version = "0.1.5"
 edition = "2024"
 authors = ["Adam Ladachowski <adam@saiden.pl>"]
 description = "Themed name generator — like haikunator, but with categories"
 license = "MIT"
-repository = "https://github.com/aladac/dubs"
+repository = "https://github.com/saiden-dev/dubs"
 keywords = ["name", "generator", "haikunator", "random", "themed"]
 categories = ["command-line-utilities", "text-processing"]
 

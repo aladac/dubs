@@ -2,13 +2,13 @@
 
 Gem::Specification.new do |spec|
   spec.name = "dubs"
-  spec.version = "0.1.4"
+  spec.version = "0.1.5"
   spec.authors = ["Adam Ladachowski"]
   spec.email = ["adam@saiden.pl"]
 
   spec.summary = "Themed name generator — like haikunator, but with categories"
   spec.description = "Generate random names from themed word lists (Gundam, Star Trek, Star Wars, Transformers, and more) with configurable patterns and token formats."
-  spec.homepage = "https://github.com/aladac/dubs"
+  spec.homepage = "https://github.com/saiden-dev/dubs"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.1"
 

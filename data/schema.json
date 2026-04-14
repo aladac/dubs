@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/aladac/dubs/data/schema.json",
+  "$id": "https://github.com/saiden-dev/dubs/data/schema.json",
   "title": "Dubs Theme",
   "description": "Theme definition for the dubs name generator",
   "type": "object",
