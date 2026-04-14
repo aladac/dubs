@@ -4,11 +4,13 @@ rust/target/
 # Ruby
 ruby/.bundle/
 ruby/vendor/
+ruby/data/
 
 # Python
 python/.venv/
 python/__pycache__/
 python/src/**/__pycache__/
+python/src/dubs/data/
 python/dist/
 python/*.egg-info/
 

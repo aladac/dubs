@@ -30,6 +30,8 @@ jobs:
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.3"
+      - name: Copy data for packaging
+        run: cp -r data ruby/data
       - name: Build gem
         working-directory: ruby
         run: gem build dubs.gemspec
