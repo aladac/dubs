@@ -1,6 +1,6 @@
 """dubs — Themed name generator. Like haikunator, but with categories."""
 
-__version__ = "0.1.3"
+__version__ = "0.1.4"
 
 from dubs.generator import generate, themes, theme, register_theme, register_theme_file
 

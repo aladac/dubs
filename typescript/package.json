@@ -1,6 +1,6 @@
 {
   "name": "@saiden/dubs",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Themed name generator — like haikunator, but with categories",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
