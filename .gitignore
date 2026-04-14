@@ -5,6 +5,10 @@ rust/target/
 ruby/.bundle/
 ruby/vendor/
 ruby/data/
+ruby/*.gem
+
+# TypeScript data copy
+typescript/data/
 
 # Python
 python/.venv/
