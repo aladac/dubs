@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     environment: crates-io
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - uses: dtolnay/rust-toolchain@stable
       - name: Publish to crates.io
         working-directory: rust
@@ -26,7 +26,7 @@ jobs:
       contents: read
       id-token: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.3"
@@ -36,7 +36,7 @@ jobs:
         working-directory: ruby
         run: gem build dubs.gemspec
       - name: Configure trusted publisher
-        uses: rubygems/configure-rubygems-credentials@main
+        uses: rubygems/configure-rubygems-credentials@v1
       - name: Publish to RubyGems
         working-directory: ruby
         run: gem push dubs-*.gem
@@ -49,8 +49,8 @@ jobs:
       contents: read
       id-token: write
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
       - name: Install build tools
@@ -73,8 +73,8 @@ jobs:
       contents: read
       id-token: write
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
         with:
           node-version: "22"
           registry-url: "https://registry.npmjs.org"
