@@ -1,0 +1,37 @@
+{
+  "name": "@saiden/dubs",
+  "version": "0.1.0",
+  "description": "Themed name generator — like haikunator, but with categories",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist",
+    "data"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "name",
+    "generator",
+    "haikunator",
+    "random",
+    "themed",
+    "gundam",
+    "star-trek"
+  ],
+  "author": "Adam Ladachowski <adam@saiden.pl>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aladac/dubs"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "typescript": "^5.7",
+    "vitest": "^3.1"
+  }
+}
