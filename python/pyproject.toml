@@ -1,0 +1,42 @@
+[project]
+name = "dubs"
+version = "0.1.0"
+description = "Themed name generator — like haikunator, but with categories"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{ name = "Adam Ladachowski", email = "adam@saiden.pl" }]
+# readme = "README.md"
+keywords = ["name", "generator", "haikunator", "random", "themed"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/aladac/dubs"
+Repository = "https://github.com/aladac/dubs"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/dubs"]
+
+[tool.hatch.build.targets.wheel.shared-data]
+"data" = "dubs/data"
+
+[dependency-groups]
+dev = ["pytest>=8", "ruff>=0.9"]
+
+[tool.ruff]
+target-version = "py310"
+line-length = 100
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
