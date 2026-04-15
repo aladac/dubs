@@ -1,0 +1,43 @@
+{
+  "name": "fallout",
+  "display_name": "Fallout",
+  "categories": {
+    "creatures": [
+      "bloatfly", "brahmin", "cazador", "centaur", "deathclaw",
+      "eyebot", "feral-ghoul", "floater", "fog-crawler", "gatorclaw",
+      "ghoul", "gulper", "hermit-crab", "liberator", "mirelurk",
+      "mole-rat", "mongrel", "mothman", "mutant-hound", "nightstalker",
+      "protectron", "radroach", "radscorpion", "radstag", "robobrain",
+      "scorchbeast", "sentry-bot", "stingwing", "super-mutant",
+      "synth", "wendigo", "yao-guai"
+    ],
+    "factions": [
+      "bos", "enclave", "followers", "gunners", "institute",
+      "khans", "minutemen", "ncr", "railroad", "responders",
+      "tunnel-snakes", "vault-tec", "caesars-legion", "free-states",
+      "raiders", "zetans", "children-of-atom", "brotherhood-outcasts",
+      "regulators", "talon-company"
+    ],
+    "locations": [
+      "diamond-city", "goodneighbor", "megaton", "new-vegas",
+      "rivet-city", "the-citadel", "the-pitt", "the-strip",
+      "freeside", "novac", "primm", "shady-sands", "vault-101",
+      "vault-111", "vault-13", "vault-76", "far-harbor",
+      "nuka-world", "the-commonwealth", "the-glowing-sea",
+      "big-mt", "helios-one", "hoover-dam", "lucky-38",
+      "mariposa", "necropolis", "the-divide", "the-hub",
+      "sanctuary-hills", "concord"
+    ],
+    "weapons": [
+      "fatman", "gauss-rifle", "laser-musket", "minigun",
+      "missile-launcher", "plasma-rifle", "power-fist", "railway-rifle",
+      "ripper", "shishkebab", "super-sledge", "tesla-cannon",
+      "alien-blaster", "bb-gun", "deliverer", "junk-jet",
+      "kremvhs-tooth", "lincoln-repeater", "nuka-nuke",
+      "righteous-authority", "spray-n-pray", "the-last-minute",
+      "tinker-tom-special", "broadsider", "cryolator",
+      "overseer-guardian", "big-boy", "two-shot"
+    ]
+  },
+  "default_category": "creatures"
+}

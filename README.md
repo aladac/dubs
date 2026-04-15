@@ -108,6 +108,8 @@ let name = Dubs::builder()
 | **transformers** | Transformers | optimus, megatron, starscream, devastator |
 | **warhammer-40k** | Warhammer 40K | ultramarines, blood-angels, guilliman |
 | **nato** | NATO Phonetic | alpha, bravo, foxtrot, tango |
+| **eveonline** | EVE Online | rifter, drake, tengu, nightmare, nyx |
+| **fallout** | Fallout | deathclaw, radscorpion, synth, mirelurk |
 | **pokemon** | Pokemon | pikachu, charizard, mewtwo, eevee |
 | **leet** | Leet Speak | h4x0r, n00b, pwn3d, r00t |
 
@@ -127,7 +129,7 @@ Control the shape of the generated name:
 
 | Option | Values | Default |
 |--------|--------|---------|
-| `theme` | `gundam`, `star_trek`, `star_wars`, `transformers`, `warhammer_40k`, `nato`, `pokemon`, `leet` | random |
+| `theme` | `gundam`, `star_trek`, `star_wars`, `transformers`, `warhammer_40k`, `nato`, `eveonline`, `fallout`, `pokemon`, `leet` | random |
 | `category` | theme-specific (e.g. `mobile_suits`, `characters`) | theme default |
 | `pattern` | `default`, `classified`, `designation`, `codename`, `serial` | `default` |
 | `token` | `hex`, `numeric`, `alpha`, `none` | `numeric` |

@@ -1,0 +1,56 @@
+{
+  "name": "eveonline",
+  "display_name": "EVE Online",
+  "categories": {
+    "ships": [
+      "abaddon", "apocalypse", "armageddon", "avatar", "badger",
+      "basilisk", "bellicose", "bifrost", "blackbird", "brutix",
+      "bustard", "caracal", "cerberus", "chimera", "claymore",
+      "condor", "cyclone", "damnation", "devoter", "dominix",
+      "drake", "eagle", "enyo", "erebus", "exequror",
+      "ferox", "flycatcher", "gnosis", "golem", "harbinger",
+      "hawk", "hecate", "heron", "huginn", "hurricane",
+      "hyperion", "ibis", "impel", "ishtar", "jackdaw",
+      "jaguar", "kestrel", "kikimora", "kronos", "lachesis",
+      "legion", "loki", "machariel", "maelstrom", "maller",
+      "megathron", "merlin", "moa", "muninn", "myrmidon",
+      "naga", "naglfar", "nemesis", "nidhoggur", "nightmare",
+      "nyx", "omen", "oneiros", "oracle", "osprey",
+      "phantasm", "phoenix", "pilgrim", "proteus", "raven",
+      "ragnarok", "rapier", "retribution", "rifter", "rokh",
+      "sacrilege", "scimitar", "scorpion", "sleipnir", "stabber",
+      "stiletto", "stratios", "svipul", "tempest", "tengu",
+      "thanatos", "thorax", "thrasher", "tornado", "tristan",
+      "typhoon", "vagabond", "vargur", "vedmak", "vengeance",
+      "vexor", "vigil", "vindicator", "vulture", "wyvern",
+      "zealot"
+    ],
+    "factions": [
+      "amarr", "caldari", "gallente", "minmatar", "angel-cartel",
+      "blood-raiders", "concord", "guristas", "mordu", "ore",
+      "sansha", "serpentis", "sisters-of-eve", "society-of-ct",
+      "thukker", "triglavian", "edencom", "drifters", "jovian",
+      "upwell"
+    ],
+    "regions": [
+      "aridia", "black-rise", "branch", "cache", "catch",
+      "cloud-ring", "cobalt-edge", "curse", "deklein", "delve",
+      "detorid", "devoid", "domain", "esoteria", "essence",
+      "etherium-reach", "fade", "feythabolis", "fountain", "geminate",
+      "genesis", "heimatar", "immensea", "impass", "insmother",
+      "khanid", "lonetrek", "malpais", "metropolis", "molden-heath",
+      "outer-ring", "paragon-soul", "period-basis", "perrigen-falls",
+      "placid", "providence", "pure-blind", "querious", "scalding-pass",
+      "sinq-laison", "solitude", "stain", "syndicate", "tenal",
+      "the-bleak-lands", "the-citadel", "the-forge", "tribute",
+      "vale-of-the-silent", "venal", "wicked-creek"
+    ],
+    "systems": [
+      "amamake", "asakai", "b-r5rb", "ec-p8r", "heydeles",
+      "huola", "jita", "kamela", "m-oee8", "old-man-star",
+      "poitot", "rancer", "tama", "thera", "uedama",
+      "amarr", "dodixie", "hek", "rens", "perimeter"
+    ]
+  },
+  "default_category": "ships"
+}
