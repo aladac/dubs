@@ -80,6 +80,8 @@ for (const file of [
   "nato.json",
   "pokemon.json",
   "leet.json",
+  "eveonline.json",
+  "fallout.json",
 ]) {
   const theme: ThemeData = loadJSON(join("themes", file));
   themeRegistry.set(theme.name, theme);
